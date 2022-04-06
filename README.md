@@ -16,4 +16,4 @@
   <li>No functionality. But again, it was built for CSS practice.</li>
   </ul>
   <h2>Final Thoughts</h2>
-  <p>I'm happy with the final result. I set out to cement my understand of Grid and I definitely acheived that goal. I am more confident in my Grid (and Flexbox skills). Honestly I wish I had learned them earlier because they save a lot of time when making page layouts and alligning elements. </p>
+  <p>I'm happy with the final result. I set out to cement my understand of Grid and I definitely achieved that goal. I am more confident in my Grid and Flexbox skills. Honestly, I wish I had learned them earlier because they save a lot of time when making page layouts and alligning elements. </p>
