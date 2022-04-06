@@ -9,8 +9,6 @@
   <li>Flexbox</li>
   <li>CSS combinators</li>
   <li>CSS attribute selectors</li>
-  <li>Selecting/manipulating elements with JavaScript</li>
-  <li>A new way to use for loops</li>
   </ul>
 <h2>Constraints</h2>
 <ul>
