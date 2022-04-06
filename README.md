@@ -1,9 +1,8 @@
 # Admin Dashboard (CSS Grid Practice)
 
-Live preview: https://jackbayly.github.io/admin-dashboard/
-
 <p>An admin dashboard project to practice CSS Grid and Flexbox. Part of The Odin Project curriculum.</p>
-<p>Here's a live demo: https://jackbayly.github.io/Etch-a-Sketch/ </p>
+<p>Here's a live demo: Live preview: https://jackbayly.github.io/admin-dashboard/ </p>
+
 <h2>Things Learned</h2>
 <ul>
   <li>CSS Grid</li>
