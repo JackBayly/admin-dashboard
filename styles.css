@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+  
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr 3fr /.8fr 3fr;
+  
+
+}
+
+.sidebar {
+background-color: #1992d4;
+grid-area: 1 /1/3/2;
+display: grid;
+padding:30px;
+grid-template-rows: .5fr 2fr 1fr 2fr;
+gap: 56px;
+color: white;
+}
+.sidebar >div {
+    display: grid;
+    gap: 24px;
+  
+}
+
+.settings {
+grid-template-rows: 1fr 1fr 1fr;    
+}
+
+a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+  
+
+}
+
+.material-icons.dashboard {
+   font-size: 3rem;
+    width: 50px;
+    margin-left: -8px;
+
+}
+
+h2 {
+font-size: 32px;
+font-weight: 500;
+margin-left: -12px;
+}
+
+.logo {
+  grid-template-columns: 40px 10px 1fr;
+  align-items: center;
+  justify-content: flex-start;
+    gap: 10px;
+   
+}
+
+
+.sidebar div div{
+  
+    display: flex;
+    align-items: center;
+    
+    
+}
+.material-icons {
+    width: 50px
+}
+
+.header {
+padding-bottom: 10px;
+padding-top: 10px;
+display: grid;
+grid-template: 1fr 1fr /2fr 1fr;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+input[type="search"] {
+    width: 80%;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #e2e8f0;
+}
+.material-icons.s-icon {
+    font-size: 2rem;
+}
+
+.circle {
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    grid-column: 2/3;
+    align-self: center;
+    background-color: green;
+}
+.corner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.corner > * {
+    margin-left: 20px;
+
+}
+.welcome {
+    display: grid;
+   grid-template-columns: 5rem 4rem 1fr 1fr;
+
+    
+}
+.username {
+    grid-column: 3/4;
+    justify-self:flex-start;
+    align-self: center;
+    margin-left: 2rem;
+}
+.main {
+background-color: #e2e8f0;
+display: grid;
+grid-template: 1fr/ 3fr 1fr;
+
+}
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.btns> button {
+width: 120px;
+height: 50%;
+border-radius: 30px;
+border: none;
+margin: 13px;
+color: white;
+font-size: 20px;
+font-weight: 500;
+background-color: #1992d4;
+}
+
+.announcements {
+    background-color:#e2e8f0;
+    display: grid;
+    grid-template-rows: 40px 1fr 40px 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    
+}
+.info {
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    color: grey;
+
+}
+
+.info:nth-child(2)>div {
+    padding: 20px
+}
+
+.info:nth-child(2)>div div {
+    padding: 10px;
+}
+
+h3 {
+    color: black;
+    font-weight: normal;
+}
+.btmBorder {
+    border-bottom: 2px solid #e2e8f0;
+}
+.caption {
+    
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+    font-size: 20px;
+
+
+}
+.info:nth-last-child(1) {
+ 
+    height: 100%;
+   
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.info:nth-last-child(1)> div {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    
+}
+.info:nth-last-child(1)> div> div {
+    margin-left: 10px;
+}
+.mainContent {
+   
+    display: grid;
+    grid-template-rows: 75px 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+
+    padding: 20px;
+
+    
+}
+.mainContent > div {
+height: 80%;
+width: 80%;
+
+border-radius: 10px;
+border-left: 10px solid #f0b429;
+background-color: white;
+
+}
+#projects {
+    grid-column: 1 / end;
+   background-color: #e2e8f0;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 24px;
+    
+    
+}
+.card {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px;
+
+}
+.card h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card > div +div{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
